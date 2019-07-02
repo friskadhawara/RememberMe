@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BerandaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF9999FF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jadwal Sholatku :)"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nama"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#FF000000"
+        />
+
+    <TextView
+        android:id="@+id/tvlokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_marginTop="30dp"
+        android:text="Lokasi, tempat"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_lokasi_value"
+        android:layout_below="@id/tvlokasi"
+        android:text="Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvfajr"
+        android:layout_below="@id/tv_lokasi_value"
+        android:layout_marginTop="8dp"
+        android:text="Fajr"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_fajr_value"
+        android:layout_below="@id/tvfajr"
+        android:text="Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvshurooq"
+        android:layout_below="@id/tv_fajr_value"
+        android:layout_marginTop="8dp"
+        android:text="Shurooq"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_shurooq_value"
+        android:layout_below="@id/tvshurooq"
+        android:text="Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvdhuhr"
+        android:layout_below="@id/tv_shurooq_value"
+        android:layout_marginTop="8dp"
+        android:text="Dhuhr"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_dhuhr_value"
+        android:layout_below="@id/tvdhuhr"
+        android:text="Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvasr"
+        android:layout_below="@id/tv_dhuhr_value"
+        android:layout_marginTop="8dp"
+        android:text="Asr"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_asr_value"
+        android:layout_below="@id/tvasr"
+        android:text="Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvmagrib"
+        android:layout_below="@+id/tv_asr_value"
+        android:layout_marginTop="8dp"
+        android:text="Maghrib"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_maghrib_value"
+        android:layout_below="@+id/tvmagrib"
+        android:text="Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvisha"
+        android:layout_below="@+id/tv_maghrib_value"
+        android:layout_marginTop="8dp"
+        android:text="Isha"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_isha_value"
+        android:layout_below="@+id/tvisha"
+        android:text="Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
